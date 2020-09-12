@@ -1,6 +1,8 @@
 import numpy as np
 
 from gradient_descent import gradient_descent
+from minibatch_gradient_descent import minibatch_gradient_descent
+from stocashtic_gradient_descent import stocashtic_gradient_descent
 
 step = 0.01
 iterations = 100
